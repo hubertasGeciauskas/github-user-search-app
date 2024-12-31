@@ -1,0 +1,35 @@
+.btn-light {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #4b6a9b;
+
+  path {
+    fill: #4b6a9b;
+  }
+
+  &:hover {
+    color: #222731;
+    path {
+      fill: #222731;
+    }
+  }
+}
+
+.btn-dark {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #ffffff;
+
+  path {
+    fill: #ffffff;
+  }
+
+  &:hover {
+    color: #90a4d4;
+    path {
+      fill: #90a4d4;
+    }
+  }
+}

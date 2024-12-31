@@ -10,6 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+      },
+      boxShadow: {
+        custom: "0 16px 30px -10px rgba(70, 96, 187, 0.1986)",
       },
     },
   },

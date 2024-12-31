@@ -1,0 +1,23 @@
+.link {
+  display: flex;
+  gap: 1rem;
+  color: var(--idle);
+
+  path {
+    fill: var(--idle);
+  }
+
+  &.active {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.unactive {
+    opacity: 75%;
+
+    path {
+      opacity: 75%;
+    }
+  }
+}
